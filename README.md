@@ -34,8 +34,8 @@ optional arguments:
 
     --lr                default=1e-3    learning rate
     --epoch             default=200     number of epochs tp train for
-    --trainBatchSize    default=100      training batch size
-    --testBatchSize     default=100      test batch size
+    --trainBatchSize    default=100     training batch size
+    --testBatchSize     default=100     test batch size
 
 ## Results
 | Name | C10 GPU Time (ms) | C10 Error (%) | SVHN GPU Time (ms) | SVHN Error (%) | FLOPs (G) | MAdd (G) | Memory (MB) | #Params (M) | MenR+W (MB) |
