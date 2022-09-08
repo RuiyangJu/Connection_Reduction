@@ -50,6 +50,9 @@ optional arguments:
 | HarDNet85 | 0.50 | 13.89 | 9.10 | 18.18 | 74.65 | 36.67 |
 
 \* GPU Time is the inference time per image on NVIDIA RTX 3050
+ 
+  <img src="Img/C10.png" width="640" title="C10">
+  <img src="Img/SVHN.png" width="640" title="SVHN">
 
 ## Requirements
 * Python 3.6+
