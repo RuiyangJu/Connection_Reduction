@@ -51,8 +51,8 @@ optional arguments:
 
 \* GPU Time is the inference time per image on NVIDIA RTX 3050
  
-  <img src="Img/C10.png" width="640" title="C10">
-  <img src="Img/SVHN.png" width="640" title="SVHN">
+  <img src="Img/C10.png" width="480" title="C10">
+  <img src="Img/SVHN.png" width="480" title="SVHN">
 
 ## Requirements
 * Python 3.6+
