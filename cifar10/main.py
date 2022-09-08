@@ -24,9 +24,9 @@ CLASSES = ('plane', 'car', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship'
 def main():
     parser = argparse.ArgumentParser(description="cifar-10 with PyTorch")
     parser.add_argument('--lr', default=0.001, type=float, help='learning rate')
-    parser.add_argument('--epoch', default=100, type=int, help='number of epochs tp train for')
-    parser.add_argument('--trainBatchSize', default=50, type=int, help='training batch size')
-    parser.add_argument('--testBatchSize', default=50, type=int, help='testing batch size')
+    parser.add_argument('--epoch', default=200, type=int, help='number of epochs tp train for')
+    parser.add_argument('--trainBatchSize', default=100, type=int, help='training batch size')
+    parser.add_argument('--testBatchSize', default=100, type=int, help='testing batch size')
     parser.add_argument('--cuda', default=torch.cuda.is_available(), type=bool, help='whether cuda is in use')
     args = parser.parse_args()
 
