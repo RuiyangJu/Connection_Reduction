@@ -38,18 +38,16 @@ optional arguments:
     --testBatchSize     default=100      test batch size
 
 ## Results
-| Name | GPU Time (ms) | C10 Error (%) | FLOPs (G) | MAdd (G) | Memory (MB) | #Params (M) |
+| Name | C10 GPU Time (ms) | C10 Error (%) | SVHN GPU Time (ms) | SVHN Error (%) | FLOPs (G) | MAdd (G) | Memory (MB) | #Params (M) | MenR+W (MB) |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **ThreshNet28** | 0.35 | 14.75 | 2.28 | 4.55 | 83.26 | 10.18 |
-| SqueezeNet | 0.36 | 14.25 | 2.69 | 5.32 | 211.42 | 0.78 |
-| MobileNet | 0.38 | 16.12 | 2.34 | 4.63 | 230.84 | 3.32 |
-| **ThreshNet79** | 0.42 | 13.66  | 3.46 | 6.90 | 109.68  | 14.31 |
-| HarDNet68 | 0.44 | 14.66 | 4.26 | 8.51 | 49.28 | 17.57 |
-| MobileNetV2 | 0.46 | 14.06 | 2.42 | 4.75 | 384.78 | 2.37 |
-| **ThreshNet95** | 0.46 | 13.31 | 4.07 | 8.12 | 132.34 | 16.19 | 
-| HarDNet85 | 0.50 | 13.89 | 9.10 | 18.18 | 74.65 | 36.67 |
+| Baseline43 | 72.83 | 14.00 | 72.64 | 5.95 | 509.38 | 1.02 | 6.08 | 2.17 | 25.93 |
+| ShortNet1-43 | 61.17 | 13.59 | 58.97 | 5.65 | 374.00 | 0.75 | 4.60 | 1.59 | 18.92 |
+| ShortNet2-43 | 52.48 | 14.09 | 50.61 | 5.48 | 256.44 | 0.51 | 4.00 | 0.97 | 13.74|
+| Baseline53 | 94.25 | 13.38 | 92.11 | 5.92 | 783.20 | 1.56 | 7.37 | 3.15 | 35.46 |
+| ShortNet1-53 | 71.19 | 13.36 | 69.57 | 5.63 | 536.76 | 1.07 | 5.41 | 2.16 | 24.56 |
+| ShortNet2-53 | 58.14 | 14.08 | 55.34 | 6.59 | 334.76 | 0.67 | 4.37 | 1.20 | 16.05 |
 
-\* GPU Time is the inference time per image on NVIDIA RTX 3050
+\* GPU Time is the inference time per 100 images on NVIDIA RTX 3050
  
   <img src="Img/C10.png" width="480" title="C10">
   <img src="Img/SVHN.png" width="480" title="SVHN">
