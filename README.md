@@ -33,9 +33,9 @@ python3 main.py
 optional arguments:
 
     --lr                default=1e-3    learning rate
-    --epoch             default=200     number of epochs tp train for
-    --trainBatchSize    default=100     training batch size
-    --testBatchSize     default=100     test batch size
+    --epoch             default=100     number of epochs tp train for
+    --trainBatchSize    default=50      training batch size
+    --testBatchSize     default=50      test batch size
 
 ## Results
 | Name | GPU Time (ms) | C10 Error (%) | FLOPs (G) | MAdd (G) | Memory (MB) | #Params (M) |
