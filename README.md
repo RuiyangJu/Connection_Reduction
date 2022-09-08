@@ -1,6 +1,6 @@
 # [Connection Reduction of DenseNet for Image Recognition](https://arxiv.org/abs/2208.01424)
 <p align="center">
-  <img src="Img/baseline.jpg" width="640" title="baseline">
+  <img src="Img/baseline.jpg" width="480" title="baseline">
 </p>
 
 ## Citation
