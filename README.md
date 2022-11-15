@@ -6,10 +6,10 @@
 ## Citation
 If you find ThreshNet useful in your research, please consider citing:
 
-	@article{Connection_Reduction,
+	@article{ju2022connection,
 	 title={Connection Reduction of DenseNet for Image Recognition},
-	 author={Rui-Yang Ju, Jen-Shiun Chiang},
-	 conference={ISPACS},
+	 author={Rui-Yang Ju, Jen-Shiun Chiang, Chih-Chia Chen, Yu-Shian Lin},
+	 conference={International Symposium on Intelligent Signal Processing and Communication Systems (ISPACS)},
 	 year={2022}
 	 }
 	 
