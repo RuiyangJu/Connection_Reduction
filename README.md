@@ -1,6 +1,16 @@
-# [Connection Reduction of DenseNet for Image Recognition](https://arxiv.org/abs/2208.01424)
+# Connection Reduction of DenseNet for Image Recognition
+
+> [Connection Reduction of DenseNet for Image Recognition](https://arxiv.org/abs/2208.01424)
+
+## Abstract
+Convolutional Neural Networks (CNN) increase depth by stacking convolutional layers, and deeper network models perform better in image recognition. Empirical research shows that simply stacking convolutional layers does not make the network train better, and skip connection (residual learning) can improve network model performance. For the image classification task, models with global densely connected architectures perform well in large datasets like ImageNet, but are not suitable for small datasets such as CIFAR-10 and SVHN. Different from dense connections, we propose two new algorithms to connect layers. Baseline is a densely connected network, and the networks connected by the two new algorithms are named ShortNet1 and ShortNet2 respectively. The experimental results of image classification on CIFAR-10 and SVHN show that ShortNet1 has a 5% lower test error rate and 25% faster inference time than Baseline. ShortNet2 speeds up inference time by 40% with less loss in test accuracy.
+
 <p align="center">
   <img src="Img/baseline.jpg" width="640" title="baseline">
+</p>
+
+<p align="center">
+ <img src="Img/connection.jpg" width="480" title="connetion">
 </p>
 
 ## Citation
@@ -14,17 +24,11 @@ If you find ThreshNet useful in your research, please consider citing:
 	 }
 	 
 ## Contents
-1. [Introduction](#introduction)
-2. [Usage](#Usage)
-3. [Results](#Results)
-4. [Requirements](#Requirements)
-5. [Config](#Config)
-6. [References](#References)
-
-## Introduction
-Convolutional Neural Networks (CNN) increase depth by stacking convolutional layers, and deeper network models perform better in image recognition. Empirical research shows that simply stacking convolutional layers does not make the network train better, and skip connection (residual learning) can improve network model performance. For the image classification task, models with global densely connected architectures perform well in large datasets like ImageNet, but are not suitable for small datasets such as CIFAR-10 and SVHN. Different from dense connections, we propose two new algorithms to connect layers. Baseline is a densely connected network, and the networks connected by the two new algorithms are named ShortNet1 and ShortNet2 respectively. The experimental results of image classification on CIFAR-10 and SVHN show that ShortNet1 has a 5% lower test error rate and 25% faster inference time than Baseline. ShortNet2 speeds up inference time by 40% with less loss in test accuracy.
-
- <img src="Img/connection.jpg" width="480" title="connetion">
+1. [Usage](#Usage)
+2. [Results](#Results)
+3. [Requirements](#Requirements)
+4. [Config](#Config)
+5. [References](#References)
 
 ## Usage
 ```bash
