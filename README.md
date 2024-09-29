@@ -5,9 +5,7 @@
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/connection-reduction-is-all-you-need/image-classification-on-svhn)](https://paperswithcode.com/sota/image-classification-on-svhn?p=connection-reduction-is-all-you-need)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/connection-reduction-is-all-you-need/image-classification-on-cifar-10)](https://paperswithcode.com/sota/image-classification-on-cifar-10?p=connection-reduction-is-all-you-need)
 
-## Abstract
-Convolutional Neural Networks (CNN) increase depth by stacking convolutional layers, and deeper network models perform better in image recognition. Empirical research shows that simply stacking convolutional layers does not make the network train better, and skip connection (residual learning) can improve network model performance. For the image classification task, models with global densely connected architectures perform well in large datasets like ImageNet, but are not suitable for small datasets such as CIFAR-10 and SVHN. Different from dense connections, we propose two new algorithms to connect layers. Baseline is a densely connected network, and the networks connected by the two new algorithms are named ShortNet1 and ShortNet2 respectively. The experimental results of image classification on CIFAR-10 and SVHN show that ShortNet1 has a 5% lower test error rate and 25% faster inference time than Baseline. ShortNet2 speeds up inference time by 40% with less loss in test accuracy.
-
+## Figure
 <p align="center">
   <img src="Img/baseline.jpg" width="640" title="baseline">
 </p>
@@ -67,13 +65,14 @@ optional arguments:
 
 ## Config
 ###### Optimizer 
-__Adam Optimizer__
+* __Adam Optimizer__
 ###### Learning Rate
-__1e-3__ for [1,74] epochs <br>
-__5e-4__ for [75,149] epochs <br>
-__2.5e-4__ for [150,200) epochs <br>
+* __1e-3__ for [1,74] epochs <br>
+* __5e-4__ for [75,149] epochs <br>
+* __2.5e-4__ for [150,200) epochs <br>
 
 
 ## References
+<details><summary> <b>GitHub</b> </summary>
 * [torchstat](https://github.com/Swall0w/torchstat)
 * [pytorch-cifar10](https://github.com/soapisnotfat/pytorch-cifar10)
