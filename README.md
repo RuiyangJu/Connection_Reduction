@@ -2,9 +2,6 @@
 
 > [Connection Reduction of DenseNet for Image Recognition](https://arxiv.org/abs/2208.01424)
 
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/connection-reduction-is-all-you-need/image-classification-on-svhn)](https://paperswithcode.com/sota/image-classification-on-svhn?p=connection-reduction-is-all-you-need)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/connection-reduction-is-all-you-need/image-classification-on-cifar-10)](https://paperswithcode.com/sota/image-classification-on-cifar-10?p=connection-reduction-is-all-you-need)
-
 ## Figure
 <p align="center">
   <img src="Img/baseline.jpg" width="640" title="baseline">
